@@ -1,4 +1,4 @@
-# Scarcity in Cinema
+# The Role of Scarcity in Contemporary Cinema
 
 This project supports a thesis about scarcity in cinema:
 
@@ -10,8 +10,6 @@ The analysis uses movie-level data on theater release size, box office, budget, 
 
 - `data_final`: final datasets used for the analysis.
 - `notebooks`: the main analysis files. These are like digital research documents that contain text, tables, charts, and the code used to create them.
-- `figures`: charts and tables created from `exploratory_analysis.ipynb`.
-- `figures_analysis`: charts, tables, and regression outputs created from `general_analysis.ipynb`.
 
 You do not need to understand code to read the notebooks. Open the `.ipynb` files and read them from top to bottom like a report.
 
@@ -83,11 +81,6 @@ Contents:
    - Explains which thesis questions the dataset can answer.
    - Explains which questions need outside evidence, such as marketing materials, festival history, audience discourse, premium-format ticket data, or press coverage.
 
-Saved outputs:
-
-- Charts from this notebook are saved in `figures`.
-- Tables from this notebook are saved in `figures` as `.csv` and `.html` files.
-
 ## Notebook 2: general_analysis.ipynb
 
 File: `notebooks/general_analysis.ipynb`
@@ -157,13 +150,6 @@ Contents:
 14. **Final thesis interpretation**
    - Translates the regression results back into the thesis research questions.
    - Explains what the models can and cannot support.
-
-Saved outputs:
-
-- Charts from this notebook are saved in `figures_analysis`.
-- Tables from this notebook are saved in `figures_analysis` as `.csv` and `.html` files.
-- Full regression results are saved in `figures_analysis/regression_results.txt`.
-- A cleaned regression dataset is saved in `figures_analysis/regression_dataset_clean.csv`.
 
 ## Main Takeaway
 
